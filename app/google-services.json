@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969275823082",
+    "project_id": "admdf-87215",
+    "storage_bucket": "admdf-87215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969275823082:android:2ec3f9125d8146cfaed893",
+        "android_client_info": {
+          "package_name": "com.mobile.admdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969275823082-0bit8atk6r2oet13qq7g59ouk0ocvs9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnoxzkZGAkyxywOaqLNa5cocjvBEs-dZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969275823082-0bit8atk6r2oet13qq7g59ouk0ocvs9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
