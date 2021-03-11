@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/vw_logoCadastro"
-        android:layout_width="154dp"
+        android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_marginStart="120dp"
         android:layout_marginTop="60dp"
@@ -16,7 +16,6 @@
         android:layout_marginBottom="804dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.739"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -25,35 +24,40 @@
     <EditText
         android:id="@+id/tv_senhaLogin"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="46dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_senha"
         android:inputType="textPassword"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/bt_loginLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_emailLogin" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.935" />
 
     <EditText
         android:id="@+id/tv_emailLogin"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="46dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="500dp"
         android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_email"
         android:inputType="textEmailAddress"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/tv_senhaLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vw_logoCadastro" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.886" />
 
     <Button
         android:id="@+id/bt_loginLogin"
@@ -61,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_button1"
         android:hint="@string/tv_forgot"
         android:text="@string/bt_login"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,28 +86,31 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_loginLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_loginLogin"
+        app:layout_constraintVertical_bias="0.043" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="148dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="11dp"
         android:text="@string/tv_email2"
         android:textAlignment="viewStart"
         android:textAllCaps="true"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv_emailLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vw_logoCadastro" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.769" />
 
     <TextView
         android:id="@+id/textView5"
@@ -114,10 +122,19 @@
         android:text="@string/tv_senha2"
         android:textAlignment="viewStart"
         android:textAllCaps="true"
+        android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv_senhaLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_emailLogin" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
 </androidx.constraintlayout.widget.ConstraintLayout>

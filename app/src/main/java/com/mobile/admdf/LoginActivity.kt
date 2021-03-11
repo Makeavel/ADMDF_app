@@ -30,6 +30,7 @@ class LoginActivity : AppCompatActivity() {
                 if(resultado.isSuccessful){
                     val intencaoDeChamada = Intent(this, MenuActivity::class.java)
                     startActivity(intencaoDeChamada)
+                    finish()
                 }
                 else{
                     Toast.makeText(this,"Email ou Senha Inválida", Toast.LENGTH_LONG).show()
