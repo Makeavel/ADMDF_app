@@ -24,9 +24,9 @@ class CadastroActivity : AppCompatActivity() {
         val nome = tv_nomeCad.text.toString()
         val email = tv_emailCad.text.toString()
         val senha = tv_senhaCad.text.toString()
-        val senha2 = tv_confirmSenhaCad.text.toString()
+        val ConfirmaSenha = tv_confirmSenhaCad.text.toString()
 
-        if(senha != senha2){
+        if(senha != ConfirmaSenha){
             Toast.makeText(this,"Senhas incompatíveis", Toast.LENGTH_LONG).show()
         }
         else{

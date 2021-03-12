@@ -19,6 +19,6 @@
     <string name="bt_voltar">Voltar</string>
     <string name="bt_enviar">Enviar</string>
 
-
-
+    <string name="tv_visitantes">Visitantes</string>
+    <string name="tv_igrejaVisit">Frequenta outra igreja?</string>
 </resources>
