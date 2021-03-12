@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_cadastro.*
 
 class CadastroActivity : AppCompatActivity() {
@@ -19,6 +21,7 @@ class CadastroActivity : AppCompatActivity() {
     }
 
     private fun Cadastramento(){
+        val nome = tv_nomeCad.text.toString()
         val email = tv_emailCad.text.toString()
         val senha = tv_senhaCad.text.toString()
         val senha2 = tv_confirmSenhaCad.text.toString()
@@ -29,6 +32,10 @@ class CadastroActivity : AppCompatActivity() {
         else{
             val auth = FirebaseAuth.getInstance()
             val takeDeCriacao = auth.createUserWithEmailAndPassword(email , senha)
+
+            val dataBase = Firebase.database
+            val myReference  = dataBase.getReference(nome) // mandar o nome do cabra para o banco de dados ?
+
 
             takeDeCriacao.addOnCompleteListener {
                 resposta ->
