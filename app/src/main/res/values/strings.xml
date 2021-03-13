@@ -20,5 +20,6 @@
     <string name="bt_enviar">Enviar</string>
 
     <string name="tv_visitantes">Visitantes</string>
-    <string name="tv_igrejaVisit">Frequenta outra igreja?</string>
+    <string name="tv_igrejaVisit">Frequenta outra igreja ?</string>
+    <string name="tv_visitConvidado">Convidado ?</string>
 </resources>

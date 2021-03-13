@@ -10,7 +10,7 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        bt_visitante.setOnClickListener{
+        buttonVisit.setOnClickListener{
             val intencaoDeChamada = Intent(this, VisitActivity::class.java)
             startActivity(intencaoDeChamada)
         }
