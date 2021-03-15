@@ -1,25 +1,38 @@
 <resources>
     <string name="app_name">ADMDF</string>
 
-    <string name="bt_cadastro">Cadastrar</string>
-    <string name="bt_login">Login</string>
-
+    <!-- Emails -->
     <string name="tv_email">Digite seu Email</string>
     <string name="tv_email2">Email*</string>
 
+    <!-- Senhas -->
     <string name="tv_senha">Digite sua Senha</string>
     <string name="tv_senhaCad">Digite uma Senha</string>
     <string name="tv_senha2">Senha*</string>
     <string name="tv_confimaSenha">Confirmar Senha</string>
+
+    <!-- Login e Cadastro -->
+    <string name="bt_cadastro">Cadastrar</string>
+    <string name="bt_login">Login</string>
+
+    <!-- Esqueci a Senha -->
     <string name="tv_forgot">Esqueci a Senha</string>
 
-    <string name="tv_name">Nome</string>
-    <string name="tv_name2">Nome*</string>
-
-    <string name="bt_voltar">Voltar</string>
-    <string name="bt_enviar">Enviar</string>
-
+    <!-- Tela Visitantes -->
     <string name="tv_visitantes">Visitantes</string>
     <string name="tv_igrejaVisit">Frequenta outra igreja ?</string>
     <string name="tv_visitConvidado">Convidado ?</string>
+    <!-- Retornos | Envio -->
+    <string name="bt_voltar">Voltar</string>
+    <string name="bt_enviar">Enviar</string>
+
+    <!-- Nomes -->
+    <string name="tv_name">Nome</string>
+    <string name="tv_name2">Nome*</string>
+
+    <!-- Tela Menu -->
+    <string name="bt_Aniversario">Aniversariantes</string>
+    <string name="bt_avisoGeral">Avisos Gerais</string>
+    <string name="bt_AcaoGraca">Ações de Graças</string>
+
 </resources>

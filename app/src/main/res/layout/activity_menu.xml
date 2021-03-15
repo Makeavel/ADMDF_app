@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundofume"
+    android:background="@drawable/fundofume2"
     tools:context=".MenuActivity">
 
     <LinearLayout
@@ -40,7 +40,6 @@
         </RelativeLayout>
 
         <GridLayout
-
             android:columnCount="2"
             android:rowCount="3"
             android:alignmentMode="alignMargins"
@@ -66,7 +65,7 @@
                         android:layout_height="match_parent">
 
                         <ImageView
-                            android:src="@drawable/buttonvisitante"
+                            android:src="@drawable/familia"
                             android:layout_width="80dp"
                             android:layout_height="80dp">
                         </ImageView>
@@ -75,7 +74,7 @@
                             android:layout_marginTop="12dp"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp"
-                            android:text="Visitante"
+                            android:text="@string/tv_visitantes"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content">
 
@@ -101,7 +100,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/buttonvisitante"
+                        android:src="@drawable/orar"
                         android:layout_width="80dp"
                         android:layout_height="80dp">
                     </ImageView>
@@ -110,7 +109,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp"
-                        android:text="Visitante"
+                        android:text="@string/bt_AcaoGraca"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
 
@@ -136,7 +135,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/buttonvisitante"
+                        android:src="@drawable/bolo1"
                         android:layout_width="80dp"
                         android:layout_height="80dp">
                     </ImageView>
@@ -145,7 +144,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp"
-                        android:text="Visitante"
+                        android:text="@string/bt_Aniversario"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
 
@@ -171,7 +170,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/buttonvisitante"
+                        android:src="@drawable/bell"
                         android:layout_width="80dp"
                         android:layout_height="80dp">
                     </ImageView>
@@ -180,7 +179,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp"
-                        android:text="Visitante"
+                        android:text="@string/bt_avisoGeral"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
 
@@ -188,83 +187,11 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp"
-                >
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:src="@drawable/buttonvisitante"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp">
-                    </ImageView>
-
-                    <TextView
-                        android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
-                        android:textSize="18dp"
-                        android:text="Visitante"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                    </TextView>
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp"
-                >
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:src="@drawable/buttonvisitante"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp">
-                    </ImageView>
-
-                    <TextView
-                        android:layout_marginTop="12dp"
-                        android:textColor="#6f6f6f"
-                        android:textSize="18dp"
-                        android:text="Visitante"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                    </TextView>
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
 
         </GridLayout>
 
 
         </LinearLayout>
-
 
 
 </ScrollView>

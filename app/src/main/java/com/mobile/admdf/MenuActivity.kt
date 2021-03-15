@@ -15,6 +15,8 @@ class MenuActivity : AppCompatActivity() {
             startActivity(intencaoDeChamada)
         }
 
+
+
     }
 
 }
