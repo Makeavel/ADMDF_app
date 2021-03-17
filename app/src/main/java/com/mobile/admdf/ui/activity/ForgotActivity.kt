@@ -1,9 +1,10 @@
-package com.mobile.admdf
+package com.mobile.admdf.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.mobile.admdf.R
 import kotlinx.android.synthetic.main.activity_forgot.*
 
 class ForgotActivity : AppCompatActivity() {

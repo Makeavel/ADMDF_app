@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ADMDF">
-        <activity android:name=".VisitActivity"></activity>
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".ForgotActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastroActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.VisitListActivity"></activity>
+        <activity android:name=".ui.activity.VisitActivity" />
+        <activity android:name=".ui.activity.MenuActivity" />
+        <activity android:name=".ui.activity.ForgotActivity" />
+        <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.CadastroActivity" />
+        <activity android:name=".ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

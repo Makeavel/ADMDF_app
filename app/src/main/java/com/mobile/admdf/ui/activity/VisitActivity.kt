@@ -1,10 +1,9 @@
-package com.mobile.admdf
+package com.mobile.admdf.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.core.view.isInvisible
-import androidx.core.view.isVisible
+import com.mobile.admdf.R
 import kotlinx.android.synthetic.main.activity_visit.*
 
 class VisitActivity : AppCompatActivity() {

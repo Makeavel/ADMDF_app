@@ -1,8 +1,9 @@
-package com.mobile.admdf
+package com.mobile.admdf.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mobile.admdf.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 
