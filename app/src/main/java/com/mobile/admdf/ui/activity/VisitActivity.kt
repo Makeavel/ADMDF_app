@@ -36,8 +36,6 @@ class VisitActivity : AppCompatActivity() {
                 tv_Convidado.setVisibility(View.INVISIBLE)
             }
         }
-
-
     }
 
 

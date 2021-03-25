@@ -12,11 +12,14 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         buttonVisit.setOnClickListener{
-            val intencaoDeChamada = Intent(this, VisitActivity::class.java)
+            val intencaoDeChamada = Intent(this, VisitListActivity::class.java)
             startActivity(intencaoDeChamada)
         }
 
-
+        bt_mais.setOnClickListener{
+            val intencaoChamada = Intent(this, VisitActivity::class.java )
+            startActivity(intencaoChamada)
+        }
 
     }
 

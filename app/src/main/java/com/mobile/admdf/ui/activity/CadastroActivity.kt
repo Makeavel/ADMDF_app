@@ -35,17 +35,20 @@ class CadastroActivity : AppCompatActivity() {
             val takeDeCriacao = auth.createUserWithEmailAndPassword(email , senha)
 
             val dataBase = Firebase.database
+
+
             val myReference  = dataBase.getReference(nome) // mandar o nome do cabra para o banco de dados ?
 
 
             takeDeCriacao.addOnCompleteListener {
-                resposta ->
-                    if (resposta.isSuccessful) {
-                        finish()
-                    }
-                    else {
-                        Toast.makeText(this, "Falha no Cadastro, tente novamente!", Toast.LENGTH_LONG).show()
-                    }
+                    resposta ->
+                if (resposta.isSuccessful) {
+                    finish()
+                }
+                else {
+                    Toast.makeText(this, "Falha no Cadastro, tente novamente!", Toast.LENGTH_LONG).show()
+                }
+
             }
         }
 
