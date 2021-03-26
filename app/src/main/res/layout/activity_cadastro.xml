@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo_branco"
     tools:context=".ui.activity.LoginActivity">
 
     <ImageView
@@ -31,6 +32,7 @@
         android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_confimaSenha"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -49,6 +51,7 @@
         android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_senhaCad"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +69,7 @@
         android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_email"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +87,7 @@
         android:background="@drawable/custom_button_branco"
         android:ems="10"
         android:hint="@string/tv_name"
+        android:textColor="@color/black"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"

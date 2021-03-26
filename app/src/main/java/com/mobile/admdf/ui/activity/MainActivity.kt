@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         bt_loginMain.setOnClickListener{
-            val intencaoDeChamada = Intent(this, MenuActivity::class.java)
-            //val intencaoDeChamada = Intent(this, LoginActivity::class.java)   //-> Não esquece de voltar ao normal animal
+            //val intencaoDeChamada = Intent(this, MenuActivity::class.java)
+            val intencaoDeChamada = Intent(this, LoginActivity::class.java)   //-> Não esquece de voltar ao normal animal
             startActivity(intencaoDeChamada)
         }
         bt_cadastroMain.setOnClickListener{
