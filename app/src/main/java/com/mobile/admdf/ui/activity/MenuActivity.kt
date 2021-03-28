@@ -14,11 +14,25 @@ class MenuActivity : AppCompatActivity() {
         buttonVisit.setOnClickListener{
             val intencaoDeChamada = Intent(this, VisitListActivity::class.java)
             startActivity(intencaoDeChamada)
+
         }
 
         bt_mais.setOnClickListener{
             val intencaoChamada = Intent(this, VisitActivity::class.java )
             startActivity(intencaoChamada)
+
+        }
+
+        button_aniver.setOnClickListener{
+            val intencaoChamada = Intent(this, AniverListActivity::class.java)
+            startActivity(intencaoChamada)
+
+        }
+
+        button_aviso.setOnClickListener{
+            val intencaoChamada = Intent(this, AvisoListActivity::class.java)
+            startActivity(intencaoChamada)
+
         }
 
     }

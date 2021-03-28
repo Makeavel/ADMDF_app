@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_logo_admdf"
         android:supportsRtl="true"
         android:theme="@style/Theme.ADMDF.NoActionBar">
+        <activity android:name=".ui.activity.AvisoListActivity"></activity>
+        <activity
+            android:name=".ui.activity.AniverListActivity"
+            android:label="@string/title_activity_aniver"
+            android:theme="@style/Theme.ADMDF.NoActionBar.NoActionBar" />
         <activity android:name=".ui.activity.VisitListActivity" />
         <activity android:name=".ui.activity.VisitActivity" />
         <activity android:name=".ui.activity.MenuActivity" />

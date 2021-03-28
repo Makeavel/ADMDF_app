@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:textStyle="bold"
-                android:text="Visitantes"
+                android:text="Avisos"
                 android:textColor="#FFFFFF"
                 android:textSize="26sp"
                 android:layout_centerHorizontal="true"
@@ -81,16 +81,33 @@
                         android:orientation="vertical"
                         android:padding="6dp">
 
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/logopreto"></ImageView>
+                        <TextView
+                            android:id="@+id/tv_nomeAviso"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome: Pessoa"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:textStyle="bold"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_mensagemAviso"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/tv_visitantes"
+                            android:text="@string/tv_mensagem"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp">
 
@@ -115,6 +132,15 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
+
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
@@ -123,8 +149,18 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/bt_AcaoGraca"
+                            android:text="@string/bt_avisoGeral"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp">
 
@@ -149,6 +185,15 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
+
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
@@ -157,8 +202,18 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/bt_Aniversario"
+                            android:text="@string/bt_avisoGeral"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp">
 
@@ -183,6 +238,15 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
+
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
@@ -191,8 +255,18 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/bt_Aniversario"
+                            android:text="@string/bt_avisoGeral"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp">
 
@@ -217,6 +291,15 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
+
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
@@ -225,8 +308,18 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/bt_Aniversario"
+                            android:text="@string/bt_avisoGeral"
                             android:textColor="#6f6f6f"
                             android:textSize="18dp">
 
@@ -251,10 +344,29 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Nome:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+                        </TextView>
+
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:src="@drawable/logopreto"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:text="Mensagem:"
+                            android:textColor="#000000"
+                            android:textSize="18sp">
+
+                        </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"

@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             val intencaoDeChamada = Intent(this, LoginActivity::class.java)   //-> Não esquece de voltar ao normal animal
             startActivity(intencaoDeChamada)
         }
+
         bt_cadastroMain.setOnClickListener{
 
             val intencaoDechamada = Intent(this, CadastroActivity::class.java)
@@ -24,5 +25,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-
-
