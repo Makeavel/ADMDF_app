@@ -198,8 +198,8 @@
             android:id="@+id/bt_mais"
             android:layout_width="62dp"
             android:layout_height="62dp"
-            android:src="@drawable/mais"
-            android:layout_marginHorizontal="160dp" >
+            android:layout_marginHorizontal="160dp"
+            android:src="@drawable/mais">
 
         </ImageView>
 
