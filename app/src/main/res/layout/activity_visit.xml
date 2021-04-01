@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo_branco"
     tools:context=".ui.activity.MenuActivity">
 
     <RelativeLayout
@@ -88,7 +89,7 @@
         android:layout_marginBottom="51dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nome da Igreja"
+        android:hint="Nome da Igreja"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/switchConvidado"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +111,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="4dp"
         android:text="@string/tv_visitConvidado"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -129,7 +130,7 @@
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Name"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

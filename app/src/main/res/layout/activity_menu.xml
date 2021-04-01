@@ -73,6 +73,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:textStyle="bold"
                         android:text="@string/tv_visitantes"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp">
@@ -108,6 +109,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:textStyle="bold"
                         android:text="@string/bt_AcaoGraca"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp">
@@ -135,14 +137,15 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@drawable/bolo1"></ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:textStyle="bold"
                         android:text="@string/bt_Aniversario"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp">
@@ -170,14 +173,15 @@
                     android:padding="16dp">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
                         android:src="@drawable/bell"></ImageView>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:textStyle="bold"
                         android:text="@string/bt_avisoGeral"
                         android:textColor="#6f6f6f"
                         android:textSize="18dp">

@@ -30,6 +30,7 @@ class CadastroActivity : AppCompatActivity() {
         if(senha != ConfirmaSenha){
             Toast.makeText(this,"Senhas incompatíveis", Toast.LENGTH_LONG).show()
         }
+
         else{
             val auth = FirebaseAuth.getInstance()
             val takeDeCriacao = auth.createUserWithEmailAndPassword(email , senha)
