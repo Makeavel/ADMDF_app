@@ -1,9 +1,9 @@
 package com.mobile.admdf.model.RealTimeDatabase
 
-class UserModel {
+class UserModel : NameModel() {
 
     val id : String? = null
-    val nome : String? = null   //val nome = tv_nomeCad.text.toString()
+       //val nome = tv_nomeCad.text.toString()
     val email : String? = null
 
 

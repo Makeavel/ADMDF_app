@@ -1,5 +1,5 @@
 package com.mobile.admdf.model.RealTimeDatabase
 
-class DataModel {
+class DataModel : NameModel() {
 
 }
