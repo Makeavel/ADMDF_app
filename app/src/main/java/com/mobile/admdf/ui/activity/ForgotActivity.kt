@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.mobile.admdf.R
+import com.mobile.admdf.model.Auth.AuthUser
 import kotlinx.android.synthetic.main.activity_forgot.*
 
 class ForgotActivity : AppCompatActivity() {
@@ -15,10 +16,9 @@ class ForgotActivity : AppCompatActivity() {
         bt_enviarForgot.setOnClickListener{
 
             val email = tv_emailForgot.text.toString()
-            val auth = FirebaseAuth.getInstance()
-            auth.sendPasswordResetEmail(email)
-            Toast.makeText(this,"Mensagem de recuperação enviada", Toast.LENGTH_LONG).show()
-            finish()
+            val auth = AuthUser()
+
+            auth.Auth_forgot(email)
             }
         }
     }

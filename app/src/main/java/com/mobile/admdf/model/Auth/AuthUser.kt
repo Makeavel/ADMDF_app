@@ -19,7 +19,7 @@ open class AuthUser {
 
             }
             else{
-                Toast.makeText(this, "Falha no cadastro" , Toast.LENGTH_LONG).show()
+               // Toast.makeText(this, "Falha no cadastro" , Toast.LENGTH_LONG).show()
             }
         }
 

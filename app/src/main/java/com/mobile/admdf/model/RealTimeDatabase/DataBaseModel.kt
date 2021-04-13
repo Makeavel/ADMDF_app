@@ -8,7 +8,6 @@ open class DataBaseModel {
 
     // Usuário abre as páginas de cadastro dos motivos e quando chega aqui eles vão para o DB,
     //
-
     private val authBase = Firebase.database
 
 
@@ -37,6 +36,5 @@ open class DataBaseModel {
 
         return true
     }
-
 
 }

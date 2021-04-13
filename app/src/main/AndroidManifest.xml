@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_logo_admdf"
         android:supportsRtl="true"
         android:theme="@style/Theme.ADMDF.NoActionBar">
-        <activity android:name=".ui.activity.AvisoListActivity"></activity>
+        <activity android:name=".ui.activity.FistScreenActivity"></activity>
+        <activity android:name=".ui.activity.AvisoListActivity" />
         <activity
             android:name=".ui.activity.AniverListActivity"
             android:label="@string/title_activity_aniver"

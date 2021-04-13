@@ -17,14 +17,13 @@ import kotlinx.android.synthetic.main.fragment_cadastro.*
 
 class CadastroFragment : Fragment() {
 
-
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+                              savedInstanceState: Bundle?): View {
         // Inflate the layout for this fragment
 
         bt_cadastroCad.setOnClickListener{ cadastrar() }
         bt_voltarCad.setOnClickListener{ activity?.finish() }
+
 
         return inflater.inflate(R.layout.fragment_cadastro, container, false)
 
@@ -46,9 +45,9 @@ class CadastroFragment : Fragment() {
             Toast.makeText(activity, "Email inválido", Toast.LENGTH_LONG).show()
             return
         }
-
-        authUser.Auth_Cadastro(email , senha , nome)
-
+        else {
+            authUser.Auth_Cadastro(email, senha, nome)
+        }
     }
 
 }
