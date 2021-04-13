@@ -1,4 +1,4 @@
-package com.mobile.admdf.ui.fragment.screen
+package com.mobile.admdf.ui.fragment.Forgot
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.mobile.admdf.R
 
 
-class FundoBrancoFragment : Fragment() {
+class ForgotFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,10 +16,9 @@ class FundoBrancoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
-
-        return inflater.inflate(R.layout.fragment_fundo_branco, container, false)
+        return inflater.inflate(R.layout.fragment_forgot, container, false)
     }
 
-    //https://developer.android.com/topic/libraries/view-binding//
 }
+
+
