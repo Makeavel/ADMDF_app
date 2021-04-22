@@ -11,7 +11,7 @@
     <string name="tv_senha2">Senha*</string>
     <string name="tv_confimaSenha">Confirmar Senha</string>
 
-    <!-- Login e Cadastro -->
+    <!-- Login e cadastro -->
     <string name="bt_cadastro">Cadastrar</string>
     <string name="bt_login">Login</string>
 
@@ -22,6 +22,7 @@
     <string name="tv_visitantes">Visitantes</string>
     <string name="tv_igrejaVisit">Frequenta outra igreja ?</string>
     <string name="tv_visitConvidado">Convidado ?</string>
+
     <!-- Retornos | Envio -->
     <string name="bt_voltar">Voltar</string>
     <string name="bt_enviar">Enviar</string>
@@ -36,7 +37,6 @@
     <string name="bt_AcaoGraca">Ações de Graças</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_fundo">fundoActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -50,5 +50,7 @@
     <string name="title_activity_aniver">AniverActivity</string>
 
     <string name="tv_mensagem">Eu sei que o meu Redentor vive e que por fim se levantará sobre a terra. E depois que o meu corpo estiver consumido e sem carne, verei a Deus. Eu o verei por mim mesmo, com meus próprios olhos, eu, não outros. Como o meu coração anseia dentro de mim!   Jó 19.25-27</string>
+
+    <string name="label">Makeavel</string>
 
 </resources>

@@ -1,14 +1,12 @@
 package com.mobile.admdf.model.Auth
 
-import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.mobile.admdf.ui.fragment.Cadastro.CadastroFragment
 
-open class AuthUser {
+open class AuthUser(var email : String, var senha : String ) {
 
     private val auth = FirebaseAuth.getInstance()
 
-    fun Auth_Cadastro(email : String , senha : String , nome : String) : Boolean {
+    fun auth_Cadastro(){
 
 
         val taskDeCadastro = auth.createUserWithEmailAndPassword(email , senha)
@@ -23,27 +21,27 @@ open class AuthUser {
             }
         }
 
-        return true
+
     }
 
-    fun Auth_login(email: String , senha: String) : Boolean{
+    fun auth_login(){
 
 
         val taskdeLogin = auth.signInWithEmailAndPassword(email , senha)
         taskdeLogin.addOnCompleteListener{
 
         }
-        return true
+
     }
 
-    fun Auth_forgot(email: String): Boolean{
+    fun auth_forgot(){
 
         val taskforgot = auth.sendPasswordResetEmail(email)
         taskforgot.addOnCompleteListener{
 
         }
 
-        return true
+
     }
 
 

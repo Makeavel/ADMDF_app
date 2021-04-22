@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_full.xml"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.mobile.admdf.ui.fragment.menu.MenuFragment"
+        android:label="MenuFragment"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_aniverListFragment"
+            app:destination="@id/aniverListFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_visitListFragment"
+            app:destination="@id/visitListFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_avisoListFragment"
+            app:destination="@id/avisoListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aniverListFragment"
+        android:name="com.mobile.admdf.ui.fragment.aniversario.AniverListFragment"
+        android:label="AniverListFragment"
+        tools:layout="@layout/fragment_aniver_list"/>
+    <fragment
+        android:id="@+id/visitListFragment"
+        android:name="com.mobile.admdf.ui.fragment.visitantes.VisitListFragment"
+        android:label="VisitListFragment"
+        tools:layout="@layout/fragment_visit_list"/>
+    <fragment
+        android:id="@+id/avisoListFragment"
+        android:name="com.mobile.admdf.ui.fragment.avisos.AvisoListFragment"
+        android:label="AvisoListFragment"
+        tools:layout="@layout/fragment_aviso_list"/>
+
+</navigation>

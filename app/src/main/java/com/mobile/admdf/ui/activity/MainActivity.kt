@@ -12,9 +12,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val intencaoDechamada = Intent(this, CadastroActivity::class.java)
-        startActivity(intencaoDechamada)
+        /*val intencaoDechamada = Intent(this, TestesActivity::class.java)
+        startActivity(intencaoDechamada)*/
     }
 }
 
-//   https://firebase.google.com/docs/database/android/structure-data?hl=pt-br   //
+//   https://firebase.google.com/docs/database/android/structure-data?hl=pt-br
+//
+
+/*
+
+
+*/

@@ -12,7 +12,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo_branco"
-    tools:context=".ui.fragment.Forgot.ForgotFragment">
+    tools:context=".ui.fragment.auth.ForgotFragment">
 
     <ImageView
         android:id="@+id/vw_LogoForgot"

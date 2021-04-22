@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth.xml"
+    app:startDestination="@id/firstScreenFragment">
+    <fragment
+        android:id="@+id/forgotFragment"
+        android:name="com.mobile.admdf.ui.fragment.auth.ForgotFragment"
+        android:label="ForgotFragment"
+        tools:layout="@layout/fragment_forgot"/>
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.mobile.admdf.ui.fragment.auth.CadastroFragment"
+        android:label="CadastroFragment"
+        tools:layout="@layout/fragment_cadastro">
+        <action
+            android:id="@+id/action_cadastroFragment_to_firstScreenFragment"
+            app:destination="@id/firstScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.mobile.admdf.ui.fragment.auth.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_firstScreenFragment"
+            app:destination="@id/firstScreenFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotFragment"
+            app:destination="@id/forgotFragment" />
+        <action
+            android:id="@+id/xml"
+            app:destination="@id/nav_full.xml" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstScreenFragment"
+        android:name="com.mobile.admdf.ui.fragment.screen.FirstScreenFragment"
+        android:label="fragment_first_screen"
+        tools:layout="@layout/fragment_first_screen" >
+        <action
+            android:id="@+id/action_firstScreenFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_firstScreenFragment_to_cadastroFragment"
+            app:destination="@id/cadastroFragment" />
+    </fragment>
+    <include app:graph="@navigation/nav_full" />
+
+</navigation>

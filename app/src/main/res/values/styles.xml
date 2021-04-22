@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Theme.NotTitleBar" parent="Theme.AppCompat.Light.NoActionBar"/>
+
 
     <style name="Widget.MaterialComponents.Button.OutlinedButton.ButtonLoginMenu">
         <!--<item name="colorbutton1"></item> -->
-
         <item name="cornerRadius">8dp</item>
         <item name="android:paddingTop">16dp</item>
         <item name="android:paddingBottom">16dp</item>
@@ -19,6 +20,7 @@
         <item name="android:radius">30dp</item>
         <item name="android:width">2dp</item>
     </style>
+
 
 
 

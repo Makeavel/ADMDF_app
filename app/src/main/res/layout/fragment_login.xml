@@ -5,14 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="LoginFragment"
+            type="com.mobile.admdf.ui.fragment.auth.LoginFragment" />
     </data>
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo_branco"
-    tools:context=".ui.fragment.Login.LoginFragment">
+    tools:context=".ui.fragment.auth.LoginFragment">
 
     <ImageView
         android:id="@+id/vw_logoCadastro"
@@ -94,6 +96,7 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textStyle="bold"
+        android:onClick="@{LoginFragment::forgot}"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

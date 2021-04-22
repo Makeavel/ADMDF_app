@@ -10,6 +10,7 @@
     <color name="cinza_claro">#BABABA</color>
     <color name="cinza_escuro">#363636</color>
     <color name="transparente">#00FFFFFF</color>
+    <color name="vermelho">#CC1616</color>
 
 
 </resources>
